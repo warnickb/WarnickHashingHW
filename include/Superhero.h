@@ -8,11 +8,11 @@
  * Header file that provides interface for Superhero class
  */
 
-class superhero{
+class Superhero{
 
 public:
 
-superhero(int page_id, const std::string &name, const std::string &urlslug, const std::string &id, const std::string &alignment, char eye_color, char hair_color, char sex, const std::string &gsm, bool alive, int appearances, const std::string &first_apperance, int year);
+Superhero(int page_id, const std::string &name, const std::string &urlslug, const std::string &id, const std::string &alignment, char eye_color, char hair_color, char sex, const std::string &gsm, bool alive, int appearances, const std::string &first_apperance, int year);
 
 private:
 
